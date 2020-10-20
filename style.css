@@ -1,0 +1,115 @@
+body {
+background-color: #C5E3F7;
+color: #4A4A4A;
+font-family: poppins;
+font-weight: lighter;
+
+
+
+}
+h1{
+	font-family: oxygen
+	font-weight: 900;
+}
+
+h2, h3, h4 {
+
+	font-family: oxygen
+	font-weight: 700;
+
+
+}
+
+
+
+.container {
+  width: 700px;
+  margin: 40px auto; 
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+	border-radius: 10px; 
+	margin: 50px 0px;
+	text-align: center;
+
+}
+
+.img-circle{
+	border-radius: 50%;
+
+}
+
+.btn-blue{
+background-color:  #334195;
+color: white;
+padding: 10px 15px;
+border-radius: 10px;
+}
+
+.btn-blue:hover {
+background-color: #F8C346;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;	
+}
+.list-inline li{
+	display: inline;
+	 padding:10px;	  
+}
+.list-inline i{
+	 font-size: 50px;
+	 color: #C5E3F7; 
+}
+.list-inline i:hover{
+	font-size: 50px;
+	color: #F8C346;
+}
+
+#introduction p{
+margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
